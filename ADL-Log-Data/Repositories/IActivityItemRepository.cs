@@ -22,7 +22,7 @@
         IList<ActivityItem> GetActivityItems();
 
         /// <summary>
-        /// Get all activity classes in the system
+        /// Get an activity class by name
         /// </summary>
         /// <param name="name">A specific name to find the activity item class by</param>
         /// <returns>All ActivityItemClass</returns>

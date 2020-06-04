@@ -1,6 +1,8 @@
 ﻿namespace ADL_Log_Data.Repositories
 {
     using ADL_Log_Data.DataStores;
+    using ADL_Log_Data.Models;
+    using System.Collections.Generic;
 
     /// <summary>
     /// Use this to fetch ActivityItem records
@@ -19,5 +21,26 @@
         /// Used to retrieve activity items
         /// </summary>
         public IActivityItemDataStore ActivityItemDataStore { get; }
+
+        /// <inheritdoc/>
+        public ActivityItem GetActivityItem(string name)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public IList<ActivityItemClass> GetActivityItemClass(string name)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public IList<ActivityItemClass> GetActivityItemClasses()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public IList<ActivityItem> GetActivityItems()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
