@@ -1,5 +1,6 @@
 namespace ADL_Log_Web
 {
+    using ADL_Log_Data.Repositories;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Configuration;
@@ -39,6 +40,8 @@ namespace ADL_Log_Web
                 // To control authorization, you can use the Func<HttpRequest, bool> options:
                 options.ResultsAuthorize = request => true;
             });
+
+            services.AddTransient<IActivityItemRepository, ActivityItemRepository>();
         }
 
         /// <summary>

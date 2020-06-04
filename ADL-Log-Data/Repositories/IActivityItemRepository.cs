@@ -9,7 +9,7 @@
     public interface IActivityItemRepository
     {
         /// <summary>
-        /// Get all activity items in the system
+        /// Get an activity item by name
         /// </summary>
         /// <param name="name">A specific name to find the activity item by</param>
         /// <returns>ActivityItem as specified by the name</returns>

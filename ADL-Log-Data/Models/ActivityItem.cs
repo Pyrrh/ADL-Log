@@ -9,7 +9,7 @@
     public class ActivityItem
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ActivityItem"/> class.
+        /// Initializes a new instance of the <see cref="ActivityItem"/> class
         /// </summary>
         public ActivityItem()
         {
