@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "ADL Item",
+  "type": "object",
+  "properties": {
+    "Category": {
+      "type": "string",
+      "description": "Indicates the overarching bucket the ADL item fits into."
+    },
+    "Task": {
+      "type": "string",
+      "description": "Indicates the name of the task. Will be partial-match searchable in the UI."
+    },
+    "Description": {
+      "type": "string",
+      "description":  "More detailed information about what the task is meant to represent. Will be partial-match searchable in the UI."
+    }
+  }
+}

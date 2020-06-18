@@ -1,12 +1,27 @@
 [
   {
     "Category": "General Administrative",
-    "Task": "Managing Finances",
-    "Description": ""
+    "Task": "Managing Finances - Budgeting",
+    "Description": "Creating, updating, or maintaining a budget for one's income and expenses"
   },
   {
     "Category": "General Administrative",
-    "Task": "Managing Finances",
-    "Description": ""
+    "Task": "Managing Finances - Paying Bills",
+    "Description": "Includes physically writing checks, electronic payments, setting up auto-pay, and remembering to make payments on time"
+  },
+  {
+    "Category": "General Administrative",
+    "Task": "Managing Finances - Taxes",
+    "Description": "Filing and/or paying taxes. May include state, federal, real estate, or other kinds of taxes"
+  },
+  {
+    "Category": "General Administrative",
+    "Task": "Meal Planning",
+    "Description": "Generating a meal plan for any period of time. May also include creating a shopping list for groceries"
+  },
+  {
+    "Category": "General Administrative",
+    "Task": "Scheduling",
+    "Description":  "Creating a time-specific plan for any length of time. Includes maintaining a calendar of upcoming events/appointments"
   }
 ]
