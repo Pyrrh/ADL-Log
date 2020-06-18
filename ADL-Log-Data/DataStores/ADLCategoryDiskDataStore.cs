@@ -139,7 +139,7 @@
             // TODO: Make this configurable
             var directoryInfo = new DirectoryInfo(Directory.GetCurrentDirectory());
 
-            while (directoryInfo.Parent != null && !directoryInfo.EnumerateDirectories("json").Any())
+            while (directoryInfo.Parent != null && !directoryInfo.EnumerateDirectories("jsons").Any())
             {
                 this.Logger.LogTrace($"Couldn't find json files, checking the parent folder for {directoryInfo.FullName} -> {directoryInfo.Parent}");
                 directoryInfo = directoryInfo.Parent;
