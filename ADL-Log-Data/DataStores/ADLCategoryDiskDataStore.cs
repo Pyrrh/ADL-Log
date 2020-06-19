@@ -118,6 +118,12 @@
             }
         }
 
+        /// <inheritdoc/>
+        public Task<ADLCategory> Update(ADLCategory category)
+        {
+            throw new NotImplementedException();
+        }
+
         private async Task<IList<ADLCategory>> GetFileContents(string name)
         {
             return (await this.GetFilePaths())

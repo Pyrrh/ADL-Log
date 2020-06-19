@@ -1,5 +1,6 @@
 namespace ADL_Log_Web
 {
+    using ADL_Log_Data.DataStores;
     using ADL_Log_Data.Repositories;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
@@ -42,6 +43,10 @@ namespace ADL_Log_Web
             });
 
             services.AddTransient<IActivityItemRepository, ActivityItemRepository>();
+
+            // TODO: Make this configurable to which ADL data store we pull in
+            services.AddTransient<IADLCategoryRepository, ADLCategoryRepository>();
+            services.AddTransient<IADLCategoryDataStore, ADLCategoryDiskDataStore>();
         }
 
         /// <summary>

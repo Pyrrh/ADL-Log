@@ -1,4 +1,4 @@
-﻿namespace ADL_Log_Data.DataStores
+﻿namespace ADL_Log_Data.Repositories
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;
@@ -7,7 +7,7 @@
     /// <summary>
     /// Used to store information about ActivityItems
     /// </summary>
-    public interface IADLCategoryDataStore
+    public interface IADLCategoryRepository
     {
         /// <summary>
         /// Get the complete list of ADLCategories
